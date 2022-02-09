@@ -78,7 +78,7 @@ if (isset($_POST['Submit'])) {
     }
 
     $Password = $_REQUEST['Password'];
-    if (strlen($Password) < 6) {
+    if (strlen($Password) < 5) {
         echo 'Enter a valid password';
     } else {
         echo 'password is valid';
